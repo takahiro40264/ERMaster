@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ermaster_feature"
+      label="Ermaster"
+      version="0.0.1"
+      plugin="ermaster_plugin">
+
+   <description url="http://www.example.com/description">
+      ERMasterです。
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [ここに Copyright の説明を入力してください。]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [ここにライセンスの説明を入力してください。]
+   </license>
+
+   <url>
+      <discovery label="新規ディスカバリー・サイト" url="http://newsite"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.draw2d" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.gef" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.gef.common" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.gef.fx" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.gef.geometry" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.gef.layout" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.gef.zest.fx" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.edit" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.common" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.swt" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core" version="3.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="ermaster_plugin"
+         version="0.0.1"/>
+
+</feature>

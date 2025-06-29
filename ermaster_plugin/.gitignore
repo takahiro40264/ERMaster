@@ -1,0 +1,8 @@
+*.class
+*.war
+*.ear
+/bin
+/target
+MANIFEST.MF.bk
+
+!lib/*.jar

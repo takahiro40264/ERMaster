@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="popupMenus" name="%extension-point.name" schema="schema/PopupMenu.exsd"/>
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="ermaster"
+            name="%plugin.name"/>
+      <wizard
+            category="ermaster"
+            class="ermaster.wizard.NewDiagramWizard"
+            icon="icons/table.gif"
+            id="ermaster.wizard.NewDiagramWizard"
+            name="%wizard.title"/>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer class="ermaster.preference.PreferenceInitializer"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="ermaster.preference.page.root.RootPreferencePage"
+            id="ermaster.page"
+            name="%plugin.name"/>
+      <page
+            category="ermaster.page"
+            class="ermaster.preference.page.template.TemplatePreferencePage"
+            id="ermaster.page.template"
+            name="%preference.template">
+      </page>
+      <page
+            category="ermaster.page"
+            class="ermaster.preference.page.translation.TranslationPreferencePage"
+            id="ermaster.page.translation"
+            name="%preference.translation">
+      </page>
+      <page
+            category="ermaster.page"
+            class="ermaster.preference.page.jdbc.JDBCPreferencePage"
+            id="ermaster.page.jdbc"
+            name="%preference.jdbc">
+      </page>
+      <page
+            category="ermaster.page"
+            class="ermaster.preference.page.classpath.ExtClassPathPreferencePage"
+            id="ermaster.page.classpath"
+            name="%preference.classpath">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="ermaster.editor.ERDiagramMultiPageEditor"
+            extensions="erm"
+            contributorClass="ermaster.editor.view.contributor.ERDiagramMultiPageEditorActionBarContributor"
+            icon="icons/table.gif"
+            id="ermaster.editors.ERDiagramMultiPageEditor"
+            name="%plugin.name">
+      </editor>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="ermaster.editor.TestEditor"
+            extensions="erm2"
+            icon="icons/table.gif"
+            id="ermaster.editors.TestEditor"
+            name="%plugin.name">
+      </editor>
+   </extension>
+</plugin>

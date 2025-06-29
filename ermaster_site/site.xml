@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="ERMaster">
+      ERMasterの2025年最新版
+   </description>
+   <feature url="features/ermaster_feature_0.0.1.jar" id="ermaster_feature" version="0.0.1">
+      <category name="ermaster-category"/>
+   </feature>
+   <category-def name="ermaster-category" label="ERMaster">
+      <description>
+         ERMaster
+      </description>
+   </category-def>
+</site>
