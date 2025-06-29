@@ -1,6 +1,6 @@
-### ERMaster-c
+### ERMaster
 
-このプログラムは、Eclipse Plugin の ERMaster に改良を加えたERMaster-bを最新の環境に対応させたものです。
+このプログラムは、Eclipse Plugin の ERMasterを最新の環境に対応させたものです。
 機能はほとんどいじりません。最新ライブラリの対応とかが主です。
 使い方はERMasterと同じです。  
 [ERMasterの使い方](https://ermaster.sourceforge.net/index_ja.html)
@@ -18,7 +18,4 @@ License
 
 Release History
 --------
-# 2025/06/30 - ERMaster-c 1.0.0
-
-- 初期リリース(最新のエクセルに対応)
 
