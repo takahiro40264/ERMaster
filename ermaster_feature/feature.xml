@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="ermaster_feature"
-      label="Ermaster"
-      version="0.0.4"
+      label="ERMaster"
+      version="0.0.5"
       provider-name="HighWideSystem"
       plugin="ermaster_plugin">
 
