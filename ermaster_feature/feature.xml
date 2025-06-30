@@ -3,22 +3,48 @@
       id="ermaster_feature"
       label="Ermaster"
       version="0.0.2"
+      provider-name="HighWideSystem"
       plugin="ermaster_plugin">
 
-   <description url="http://www.example.com/description">
-      ERMasterです。
+   <description url="https://takahiro40264.github.io/ERMaster/ermaster_site/">
+      ERMaster
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [ここに Copyright の説明を入力してください。]
+   <copyright url="https://takahiro40264.github.io/ERMaster/ermaster_site/">
+      Copyright 2025 HighWideSystem
+
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
    </copyright>
 
-   <license url="http://www.example.com/license">
-      [ここにライセンスの説明を入力してください。]
+   <license url="https://takahiro40264.github.io/ERMaster/ermaster_site/">
+      Copyright 2025 HighWideSystem
+
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
    </license>
 
    <url>
-      <discovery label="新規ディスカバリー・サイト" url="http://newsite"/>
+      <update label="ERMaster更新サイト" url="https://takahiro40264.github.io/ERMaster/ermaster_site/"/>
+      <discovery label="ERMaster ディスカバリー・サイト" url="https://takahiro40264.github.io/ERMaster/ermaster_site/"/>
    </url>
 
    <requires>

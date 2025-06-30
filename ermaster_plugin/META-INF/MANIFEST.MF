@@ -3,6 +3,7 @@ Bundle-ManifestVersion: 2
 Automatic-Module-Name: ermaster.plugin
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: ermaster_plugin;singleton:=true
+Bundle-Vendor: HighWideSystem
 Bundle-Version: 0.0.2
 Bundle-Activator: ermaster.ERDiagramActivator
 Bundle-Localization: plugin
