@@ -432,7 +432,10 @@ public class POIUtils {
 		for (CellRangeAddress region : regionList) {
 			CellRangeAddress address = new CellRangeAddress(rowNum, rowNum,
 					region.getFirstColumn(), region.getLastColumn());
-			sheet.addMergedRegion(address);
+			if (region.intersects(address)) { // newRegionは新たに追加したい領域
+				sheet.addMergedRegion(address);
+				break;
+		    }
 		}
 	}
 

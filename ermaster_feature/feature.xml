@@ -2,7 +2,7 @@
 <feature
       id="ermaster_feature"
       label="Ermaster"
-      version="0.0.2"
+      version="0.0.3"
       provider-name="HighWideSystem"
       plugin="ermaster_plugin">
 
