@@ -7,15 +7,17 @@
 
 - 元祖ERMaster
   - [開発リポジトリ](https://sourceforge.net/projects/ermaster/)
-- ERMaster-b
+- 同じくERMasterを修正した、ERMaster-bというプラグイン
   - [開発リポジトリ](https://github.com/naoki-iwami/ermaster-b)
 - ERMasterをガッツリ変えたERFlute
   - [開発リポジトリ](https://dbflute.seasar.org/ja/manual/function/helper/erflute/index.html)
+- ブラウザで動作する、ERMaster 代替を目指したツール ERD Designer
+  - [ホームページ](https://kajitiluna.github.io/erd-designer/)
 
 License
 --------
 [Apache License](http://www.apache.org/licenses/)
 
-Release History
+Home Page
 --------
-
+https://takahiro40264.github.io/ERMaster/ermaster_site/

@@ -3,8 +3,148 @@
 <head>
 <meta charset="UTF-8">
 <title>ERMaster Eclipseプラグイン</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ERMaster-cの公式サイト">
+<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-ERMaster
+
+<div id="container">
+
+<header>
+
+<h1 id="logo">ERMaster</h1>
+
+<!--メニュー-->
+<div id="menubar">
+
+
+</div>
+<!--/#menubar-->
+
+</header>
+
+<section id="mainimg">
+<div id="text">
+<div>
+<h1>ERMaster Eclipseプラグイン</h1>
+<p class="text pc">
+ERMasterの最新バージョンです。<br>2014年ぐらいに更新が途切れたERMasterを最新のeclipse環境(2025年現在)で使えるようにしました</p>
+</div>
+</div>
+</section>
+
+<main>
+
+<section class="blur">
+
+<h2>NEWS<span>お知らせ</span></h2>
+
+<dl id="new">
+<dt>2025/07/01<span class="icon-bg1">リリース</spanclass="icon-bg1"></dt>
+<dd>バージョン0.0.6をリリース。とりあえず動く。まだ試験が完全ではない。</dd>
+<!--<dt>20XX/00/00<span>その他</span></dt>-->
+<!--<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>-->
+</dl>
+
+</section>
+
+<section class="blur">
+
+<h2>PLEASE READ<span>説明</span></h2>
+
+<h3>ERMasterとは</h3>
+<p>ERMasterとは2014年ぐらいに更新が途切れたER図を書くためのEclipseプラグインです。<br>
+	グラフィカルなインターフェースでER図が書け、そこから各種様々なデータベースのDDLを出力できます。<br>
+	ドキュメントも自動生成でき、エクセルやHTMLなど設計書の作成が容易です。<br>
+	<a href="http://ermaster.sourceforge.net/index_ja.html">ERMasterの使い方は旧説明サイトが残っているので参考にしてください。</a>
+</p>
+<p><strong class="color-check">エクスポートでExcelを選ぶとxlsの古い形式ではなく最新のxlsxで出力できます</strong><br>
+拡張子に注意してください。</p>
+<p><strong class="color-check">更新サイトが異なります。</strong><br>
+<a href="https://takahiro40264.github.io/ERMaster/ermaster_site/">更新サイトはここになります。</a><br>
+https://takahiro40264.github.io/ERMaster/ermaster_site/<br>
+既に古いものを入れてる方はアンインストールしたほうがいいかもしれません。</p>
+
+<h3>ERMasterのサンプルファイル</h3>
+<p>ERMasterのサンプルファイルを提供します。ダウンロード後プロジェクトに置いて開いてください。<br>
+	<a href="https://takahiro40264.github.io/ERMaster/ermaster_site/sample.erm">ERMasterのermファイル</a>
+	（データベースはPostgreSQLの設定になっております。）
+</p>
+
+<p><strong class="color-check">サンプルファイルのエクスポートで自動出力されるDDL(sql)ファイル</strong><br>
+<a href="https://takahiro40264.github.io/ERMaster/ermaster_site/sample.sql">DDLファイルのサンプル</a></p>
+
+
+<p><strong class="color-check">サンプルファイルのエクスポートで自動出力されるExcelファイル</strong><br>
+<a href="https://takahiro40264.github.io/ERMaster/ermaster_site/sample.xlsx">エクセルファイルのサンプル</a></p>
+
+<p><strong class="color-check">サンプルファイルのエクスポートで自動出力されるhtmlファイル</strong><br>
+<a href="https://takahiro40264.github.io/ERMaster/ermaster_site/html/dbdocs/">htmlファイルのサンプル</a></p>
+
+<p><strong class="color-check">サンプルファイルのエクスポートで自動出力されるER図の画像ファイル</strong><br>
+<a href="https://takahiro40264.github.io/ERMaster/ermaster_site/sample.png">ER図の画像ファイルのサンプル</a></p>
+
+<h3>ERMasterのリポジトリ</h3>
+<p><a href="https://github.com/takahiro40264/ERMaster">githubにてソースを公開しいます。</a>
+</p>
+
+</section>
+
+
+<section class="bg3">
+
+<h2>DIFFERENCE<span>元祖ERMasterとの違い</span></h2>
+<p>
+	<ul>
+		<li>Java1.8以上で動きます。</li>
+		<li>最新のエクセルファイルを取り扱います。</li>
+		<li>Antタスクが使えません。</li>
+	</ul>
+</p>
+
+</div>
+<!--/.list-slide-->
+
+</section>
+
+
+
+</main>
+
+
+<footer>
+
+<small>Copyright&copy; HighWideSystem All Rights Reserved.</small>
+<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--このテンプレート専用のスクリプト-->
+<script src="js/main.js"></script>
+
+<!--開閉ボタン（ハンバーガーアイコン）-->
+<div id="menubar_hdr">
+<span></span><span></span><span></span>
+</div>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+<!--パララックス（inview）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="js/jquery.inview_set.js"></script>
+
+<!--スライドショー（slick）-->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/slick.js"></script>
+
 </body>
 </html>
