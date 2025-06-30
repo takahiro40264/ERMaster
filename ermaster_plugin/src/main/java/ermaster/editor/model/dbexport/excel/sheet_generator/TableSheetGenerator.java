@@ -242,7 +242,7 @@ public class TableSheetGenerator extends AbstractSheetGenerator {
 	private void setIndexMatrixColor(XSSFWorkbook workbook,
 			XSSFCellStyle indexStyle) {
 		indexStyle.setFillForegroundColor(IndexedColors.WHITE.index);
-		XSSFFont font = workbook.getFontAt(indexStyle.getFontIndex());
+		XSSFFont font = indexStyle.getFont();
 		font.setColor(IndexedColors.BLACK.index);
 	}
 
@@ -394,7 +394,7 @@ public class TableSheetGenerator extends AbstractSheetGenerator {
 
 					XSSFRichTextString text = new XSSFRichTextString(columnName);
 					cell.setCellValue(text);
-					cell.setCellStyle(headerTemplateCell.getCellStyle());
+					cell.setCellStyle(cellStyle);
 
 					if (j != columnSize - 1) {
 						cell.setCellStyle(matrixCellStyle.style21);
@@ -498,7 +498,7 @@ public class TableSheetGenerator extends AbstractSheetGenerator {
 
 					XSSFRichTextString text = new XSSFRichTextString(columnName);
 					cell.setCellValue(text);
-					cell.setCellStyle(headerTemplateCell.getCellStyle());
+					cell.setCellStyle(cellStyle);
 
 					if (j != columnSize - 1) {
 						cell.setCellStyle(matrixCellStyle.style21);

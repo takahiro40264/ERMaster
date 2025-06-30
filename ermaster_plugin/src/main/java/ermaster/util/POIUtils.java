@@ -432,10 +432,7 @@ public class POIUtils {
 		for (CellRangeAddress region : regionList) {
 			CellRangeAddress address = new CellRangeAddress(rowNum, rowNum,
 					region.getFirstColumn(), region.getLastColumn());
-			if (region.intersects(address)) { // newRegionは新たに追加したい領域
-				sheet.addMergedRegion(address);
-				break;
-		    }
+			sheet.addMergedRegion(address);
 		}
 	}
 
@@ -508,6 +505,7 @@ public class POIUtils {
 	}
 
 	public static XSSFRow insertRow(XSSFSheet sheet, int rowNum) {
+		sheet.shiftRows(rowNum + 1, sheet.getLastRowNum(), 1);
 		XSSFRow row = sheet.getRow(rowNum);
 		if (row == null) {
 			row = sheet.createRow(rowNum);

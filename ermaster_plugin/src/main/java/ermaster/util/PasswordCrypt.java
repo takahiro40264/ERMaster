@@ -9,18 +9,10 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.spec.SecretKeySpec;
 
 import org.apache.commons.codec.binary.Base64;
+
 import ermaster.util.io.FileUtils;
 
 public class PasswordCrypt {
-
-    public static void main(String[] args) throws Exception {
-        String encrypted = encrypt("nakajima");
-        System.out.println(encrypted);
-
-        String decrypted = decrypt(encrypted);
-        System.out.println(decrypted);
-    }
-
     private static final String KEY_ALGORITHM = "AES";
 
     private static final String CIPHER_ALGORITHM = "AES/ECB/PKCS5Padding";
