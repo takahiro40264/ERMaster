@@ -19,6 +19,7 @@ import org.eclipse.swt.widgets.Table;
 import org.eclipse.swt.widgets.TableColumn;
 import org.eclipse.swt.widgets.TableItem;
 import org.eclipse.swt.widgets.Text;
+
 import ermaster.ERDiagramActivator;
 import ermaster.common.dialog.AbstractTabbedDialog;
 import ermaster.common.dialog.ValidatableTabWrapper;
@@ -131,6 +132,8 @@ public class ComplexUniqueKeyTabWrapper extends ValidatableTabWrapper {
 		this.nameText.setText("");
 
 		this.columnTable.getColumns()[1].pack();
+		columnTable.redraw();
+		columnTable.update();
 	}
 
 	@Override

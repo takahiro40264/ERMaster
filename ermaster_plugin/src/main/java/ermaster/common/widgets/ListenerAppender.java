@@ -28,6 +28,7 @@ import org.eclipse.swt.widgets.Table;
 import org.eclipse.swt.widgets.TableItem;
 import org.eclipse.swt.widgets.Text;
 import org.eclipse.ui.PlatformUI;
+
 import ermaster.ERDiagramActivator;
 import ermaster.common.dialog.AbstractDialog;
 import ermaster.common.dialog.ValidatableTabWrapper;
@@ -35,6 +36,7 @@ import ermaster.editor.model.ERDiagram;
 import ermaster.editor.view.dialog.common.EditableTable;
 
 public class ListenerAppender {
+//	private static final Logger log = LoggerFactory.getLogger(ListenerAppender.class);
 
 	public static void addTextAreaListener(final Text text,
 			final AbstractDialog dialog, boolean selectAll, boolean imeOn) {

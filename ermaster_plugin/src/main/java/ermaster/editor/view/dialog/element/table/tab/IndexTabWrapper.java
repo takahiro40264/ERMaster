@@ -18,6 +18,7 @@ import org.eclipse.swt.widgets.Table;
 import org.eclipse.swt.widgets.TableColumn;
 import org.eclipse.swt.widgets.TableItem;
 import org.eclipse.ui.PlatformUI;
+
 import ermaster.common.dialog.AbstractTabbedDialog;
 import ermaster.common.dialog.ValidatableTabWrapper;
 import ermaster.common.exception.InputException;
@@ -124,6 +125,7 @@ public class IndexTabWrapper extends ValidatableTabWrapper {
 				if (dialog.open() == IDialogConstants.OK_ID) {
 					addIndexData(dialog.getResultIndex(), true);
 				}
+				indexTable.redraw();
 			}
 		});
 
@@ -146,6 +148,7 @@ public class IndexTabWrapper extends ValidatableTabWrapper {
 				if (dialog.open() == IDialogConstants.OK_ID) {
 					addIndexData(dialog.getResultIndex(), false);
 				}
+				
 			}
 		});
 
@@ -193,6 +196,8 @@ public class IndexTabWrapper extends ValidatableTabWrapper {
 
 			this.checkButtonList.add(radioButton);
 			this.editorList.add(editor);
+			radioButton.redraw();
+			radioButton.update();
 		}
 
 		for (NormalColumn normalColumn : this.copyData.getExpandedColumns()) {
@@ -279,6 +284,9 @@ public class IndexTabWrapper extends ValidatableTabWrapper {
 		this.resutuctIndexData();
 
 		this.setTableData();
+		
+		indexTable.redraw();
+		indexTable.update();
 	}
 
 	private void resutuctIndexData() {

@@ -30,6 +30,7 @@ import org.eclipse.swt.widgets.TableItem;
 import org.eclipse.swt.widgets.Text;
 import org.eclipse.swt.widgets.Tree;
 import org.eclipse.ui.dialogs.ContainerCheckedTreeViewer;
+
 import ermaster.ResourceString;
 import ermaster.Resources;
 import ermaster.common.dialog.AbstractDialog;
@@ -705,6 +706,8 @@ public class CompositeFactory {
 		editor.setEditor(checkBox, tableItem, column);
 
 		checkBox.setSelection(selection);
+		checkBox.redraw();
+		checkBox.update();
 
 		return editor;
 	}
