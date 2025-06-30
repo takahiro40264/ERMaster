@@ -2,7 +2,7 @@
 <feature
       id="ermaster_feature"
       label="Ermaster"
-      version="0.0.1"
+      version="0.0.2"
       plugin="ermaster_plugin">
 
    <description url="http://www.example.com/description">

@@ -3,7 +3,7 @@
    <description name="ERMaster">
       ERMasterの2025年最新版
    </description>
-   <feature url="features/ermaster_feature_0.0.1.jar" id="ermaster_feature" version="0.0.1">
+   <feature url="features/ermaster_feature_0.0.2.jar" id="ermaster_feature" version="0.0.2">
       <category name="ermaster-category"/>
    </feature>
    <category-def name="ermaster-category" label="ERMaster">
