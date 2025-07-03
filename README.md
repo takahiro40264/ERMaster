@@ -2,6 +2,8 @@
 
 このプログラムは、Eclipse Plugin の ERMasterを最新の環境に対応させたものです。
 機能はほとんどいじりません。最新ライブラリの対応とかが主です。
+[ERMasterの説明サイト](https://takahiro40264.github.io/ERMaster/ermaster_site/)
+
 使い方はERMasterと同じです。  
 [ERMasterの使い方](https://ermaster.sourceforge.net/index_ja.html)
 
