@@ -6,6 +6,9 @@
    <feature url="features/ermaster_feature_0.0.6.jar" id="ermaster_feature" version="0.0.6">
       <category name="ermaster-category"/>
    </feature>
+   <feature url="features/ermaster_feature_0.0.7.jar" id="ermaster_feature" version="0.0.7">
+      <category name="ermaster-category"/>
+   </feature>
    <category-def name="ermaster-category" label="ERMaster">
       <description>
          ERMaster

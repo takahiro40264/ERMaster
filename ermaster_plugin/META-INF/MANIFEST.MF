@@ -4,7 +4,7 @@ Automatic-Module-Name: ermaster.plugin
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: ermaster_plugin;singleton:=true
 Bundle-Vendor: HighWideSystem
-Bundle-Version: 0.0.6
+Bundle-Version: 0.0.7
 Bundle-Activator: ermaster.ERDiagramActivator
 Bundle-Localization: plugin
 Require-Bundle: org.eclipse.ui,
@@ -25,8 +25,7 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.pde.ds.ui;bundle-version="1.0.100",
  org.eclipse.pde.ua.ui;bundle-version="1.0.100",
  org.eclipse.pde.ui;bundle-version="3.6.100",
- org.junit,
- junit-jupiter-api
+ org.junit
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
  icons/,
@@ -40,7 +39,7 @@ Bundle-ClassPath: .,
  lib/poi-ooxml-schemas-4.1.2.jar,
  lib/SparseBitSet-1.2.jar,
  lib/xmlbeans-3.1.0.jar
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Eclipse-LazyStart: true
 Export-Package: assets.org.apache.commons.math3.exception.util,
  assets.org.apache.commons.math3.random,

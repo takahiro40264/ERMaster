@@ -2,7 +2,7 @@
 <feature
       id="ermaster_feature"
       label="ERMaster"
-      version="0.0.6"
+      version="0.0.7"
       provider-name="HighWideSystem"
       plugin="ermaster_plugin">
 
@@ -50,23 +50,29 @@ limitations under the License.
    <requires>
       <import plugin="org.eclipse.ui" version="3.0.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.core.runtime" version="3.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.draw2d" version="3.0.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.gef" version="3.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.gef.common" version="0.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.gef.fx" version="0.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.gef.geometry" version="0.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.gef.layout" version="0.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.gef.zest.fx" version="0.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.emf.ecore" version="2.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.emf.edit" version="2.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.emf.common" version="2.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.jface" version="3.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.swt" version="3.0.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.jdt.core" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.text"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.apache.ant"/>
+      <import plugin="org.eclipse.core.filesystem" version="1.2.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.search" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.pde.api.tools.ui" version="1.0.301" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.pde.ds.ui" version="1.0.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.pde.ua.ui" version="1.0.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.pde.ui" version="3.6.100" match="greaterOrEqual"/>
+      <import plugin="org.junit"/>
    </requires>
 
    <plugin
          id="ermaster_plugin"
+         download-size="0"
+         install-size="0"
          version="0.0.0"/>
 
 </feature>
