@@ -4,7 +4,7 @@ Automatic-Module-Name: ermaster.plugin
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: ermaster_plugin;singleton:=true
 Bundle-Vendor: HighWideSystem
-Bundle-Version: 0.0.7
+Bundle-Version: 0.0.8
 Bundle-Activator: ermaster.ERDiagramActivator
 Bundle-Localization: plugin
 Require-Bundle: org.eclipse.ui,
@@ -34,13 +34,13 @@ Bundle-ClassPath: .,
  lib/commons-compress-1.19.jar,
  lib/commons-math3-3.6.1.jar,
  lib/curvesapi-1.06.jar,
+ lib/orai18n.jar,
  lib/poi-4.1.2.jar,
  lib/poi-ooxml-4.1.2.jar,
  lib/poi-ooxml-schemas-4.1.2.jar,
  lib/SparseBitSet-1.2.jar,
- lib/orai18n.jar,
  lib/xmlbeans-3.1.0.jar
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Eclipse-LazyStart: true
 Export-Package: assets.org.apache.commons.math3.exception.util,
  assets.org.apache.commons.math3.random,

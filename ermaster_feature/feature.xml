@@ -2,7 +2,7 @@
 <feature
       id="ermaster_feature"
       label="ERMaster"
-      version="0.0.7"
+      version="0.0.8"
       provider-name="HighWideSystem"
       plugin="ermaster_plugin">
 
@@ -71,8 +71,6 @@ limitations under the License.
 
    <plugin
          id="ermaster_plugin"
-         download-size="0"
-         install-size="0"
          version="0.0.0"/>
 
 </feature>
